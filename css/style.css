@@ -22,7 +22,7 @@ body {
     align-items: center;
     justify-content: space-between;
     height: auto;
-    width: 100%;
+    width: 100vw;
     background-color: dddddd;
     flex-flow: column nowrap;
     scroll-snap-type: y mandatory;
