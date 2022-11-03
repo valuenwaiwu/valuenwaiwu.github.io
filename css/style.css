@@ -510,7 +510,7 @@ nav li {
 
     .logocon {
         position: absolute;
-        bottom: 4vh;
+        bottom: 10vh;
         left: 8vw;
     }
 
@@ -528,7 +528,6 @@ nav li {
 
     .fa-arrow-down {
         margin-left: 4vw;
-        bottom: 5vh !important;
     }
     
     .body {
