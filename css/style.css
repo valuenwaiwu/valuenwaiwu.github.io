@@ -428,11 +428,10 @@ nav li {
     font-weight: 800;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
     body {
         width: 100vw;
-        height: auto;
-        padding: 10vh 0;
+        height: 100vh;
         overflow-x: hidden;
         overflow-y: scroll;
     }
@@ -520,6 +519,11 @@ nav li {
     .fa-arrow-down {
         margin-left: 4vw;
         bottom: 5vh !important;
+    }
+    
+    .body {
+        height: auto !important;
+        padding: 10vh 0;
     }
 
     .text, #shiporder, #development {
