@@ -8,6 +8,10 @@
     filter: invert(100%) hue-rotate(180deg);
 }
 
+.invert {
+    filter: invert(100%) hue-rotate(180deg);
+}
+
 
 body {
     display: flex;
@@ -162,7 +166,7 @@ nav li {
 
 .body {
     width: 90vw;
-    height: 100vh;
+    height: 90vh;
     padding: 0 5vw;
     position: relative;
     scroll-snap-align: center;
@@ -209,7 +213,7 @@ nav li {
     display: flex;
     align-items: center;
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     position: relative;
     scroll-snap-align: center;
     flex: none;
