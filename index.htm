@@ -1,0 +1,194 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Value - My work</title>
+</head>
+<body>
+            <nav id="nav">
+                <img src="img/value logo.png" alt="">
+                <ul>
+                    <span class="move">
+                        <a href="#uiux"><li class="navlist">Product Design</li></a>
+                        <a href="#dev"><li class="navlist">Development</li></a>
+                        <a href="#work"><li class="navlist">My Work</li></a>
+                    </span>
+                    <span class="move2">
+                        <li id="darkmode"><button>Dark</button></li>
+                    </span>
+                </ul>
+                <img id="menubuttonmobile" src="img/menu button.png" alt="" onclick="toggleMenu()">
+            </nav>
+            <div id="mobilenav">
+                <ul>
+                    <a href="#uiux"><li class="navlist">UI/UX Design</li></a>
+                    <a href="#dev"><li class="navlist">Development</li></a>
+                    <a href="#work"><li class="navlist">My Work</li></a>
+                </ul>
+                <button id="togglebutton" onclick="darkMode()">
+                    <i class="fa-solid fa-square"></i>
+                    <i class="fa-solid fa-square"></i>
+                </button>
+                <div class="logocon">
+                    <div class="copy">Copy</div>
+                    <div class="discord" onclick="copyToClipboard()" onmouseover="showBtn()" onmouseleave="hideBtn()">@valuenwaiwu#4127</div>
+                    <a href="https://github.com/valuenwaiwu" target="blank" onmouseover="hideDiscord()"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://instagram.com/vnegrpe" target="blank" onmouseover="hideDiscord()"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/valuenwaiwu" target="blank" onmouseover="hideDiscord()"><i class="fa-brands fa-twitter"></i></a>
+                    <i class="fa-solid fa-link" onmouseover="showDiscord()"></i>
+                </div>
+            </div>
+            <div class="intro">
+                <div id="textcontainer">
+                    <p id="imvalue">I'm Value</p>
+                    <p class="para">
+                        I do UI Design<br>and Full-stack Web Development.
+                    </p>
+                </div>
+                <i class="fa-solid fa-arrow-down"></i>
+            </div>
+            <div class="body" id="uiux">
+                <div class="text">
+                    <p class="header">UI Design</p>
+                    <p class="para">
+                        Designs for your products,<br>including Websites and Apps.
+                    </p>
+                </div>
+                <img id="shiporder" src="img/signup page web.png" alt="">
+                <p class="content"></p>
+            </div>
+            <div class="body" id="dev">
+                <div class="text">
+                    <p class="header">Development</p>
+                    <p class="para">
+                        For design to development to <br>deployment.<br>Get your Website or App running.
+                    </p>
+                </div>
+                <img id="development" src="img/development.png" alt="">
+                <p class="content"></p>
+            </div>
+            <div class="position">
+                <div id="frameworks">
+                        <p id="stack">Skills</p>
+                        <table cellspacing="20">
+                            <tr>
+                                <td>I work with several Frameworks and I'm very Proficient at using them.</td>
+                                <td>I love being an Essential Contributor to a team in any way I can.</td>
+                                <td>I like simple, clean and minimalist design.</td>
+                            </tr>
+                        </table>
+                        <div class="skills">
+                            I work with several Frameworks and I'm very Proficient at using them.
+                        </div>
+                        <div class="skills">
+                            I love being an Essential Contributor to a team in any way I can.
+                        </div>
+                        <div class="skills">
+                            I like simple, clean and minimalist design.
+                        </div>
+                </div>
+            </div>
+            <div class="position">
+                    <div id="frameworks">
+                            <p id="stack">Main Stack</p>
+                            <ul id="stacklist">
+                                <li>Figma</li>
+                                <li>MongoDB</li>
+                                <li>Express</li>
+                                <li>React</li>
+                                <li>Node JS</li>
+                            </ul>
+                            <div class="stack">
+                                <marquee behavior="" direction="" vspace="0" scrolldelay="0" scrollamount="20">
+                                    <div id="marqueecontentholder">
+                                        <i class="fa-brands fa-figma"></i>
+                                        <img src="img/mongodblogo.png" alt="">
+                                        <img src="img/express.png" alt="">
+                                        <i class="fa-brands fa-react"></i>
+                                        <i class="fa-brands fa-node-js"></i>
+                                    </div>
+                                </marquee>
+                            </div>
+                    </div>
+            </div>
+            <div class="position" id="work">
+                <div id="frameworks">
+                        <p id="stack">My Work</p>
+                        <div id="workitemcontainer">
+                            <div class="workitem">
+                                <div id="topshadow"></div>
+                                <div id="bottomshadow"></div>
+                                <img src="img/crypto site.png" alt="">
+                                <p class="header2">Crypto website</p>
+                                <p class="info">Design of Crypto website.</p>
+                                <a href="https://www.figma.com/file/H9i6nHh144vPSXdLU0VRmX/UI%2FUX?node-id=1%3A3"><button>Check it out</button></a>
+                            </div>
+                            <div class="workitem">
+                                <div id="topshadow"></div>
+                                <div id="bottomshadow"></div>
+                                <img src="img/ford.png" alt="">
+                                <p class="header2">Ford website redesign</p>
+                                <p class="info">Redesign of the ford website<br>to modernize it.</p>
+                                <a href="https://www.figma.com/file/H9i6nHh144vPSXdLU0VRmX/UI%2FUX?node-id=2%3A306"><button>Check it out</button></a>
+                            </div>
+                            <div class="workitem">
+                                <div id="topshadow"></div>
+                                <div id="bottomshadow"></div>
+                                <img src="img/signup pages.png" alt="">
+                                <p class="header2">Signup to profile</p>
+                                <p class="info">Clean, modern signup page<br>for app with followership.</p>
+                                <a href="https://www.figma.com/file/H9i6nHh144vPSXdLU0VRmX/UI%2FUX?node-id=2%3A306"><button>Check it out</button></a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="position">
+                <div id="frameworks">
+                        <p id="stack">Detailed Stack Information</p>
+                        <ul id="stacklist">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>- Tailwind</li>
+                            <li>- SASS</li>
+                            <li>JavaScript</li>
+                            <li>Figma</li>
+                            <li>- UI Design</li>
+                            <li>- UX Design and Prototyping</li>
+                            <li>MongoDB</li>
+                            <li>Express</li>
+                            <li>React</li>
+                            <li>Node JS</li>
+                        </ul>
+                </div>
+                <div class="contact" onmouseleave="hideDiscord()">
+                    <div class="logocon">
+                        <div class="copy">Copy</div>
+                        <div class="discord" onclick="copyToClipboard()" onmouseover="showBtn()" onmouseleave="hideBtn()">@valuenwaiwu#4127</div>
+                        <a href="https://github.com/valuenwaiwu" target="blank" onmouseover="hideDiscord()"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://instagram.com/vnegrpe" target="blank" onmouseover="hideDiscord()"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/valuenwaiwu" target="blank" onmouseover="hideDiscord()"><i class="fa-brands fa-twitter"></i></a>
+                        <i class="fa-solid fa-link" onmouseover="showDiscord()"></i>
+                    </div>
+                    <!-- <div id="nameandcopy"></div> -->
+                </div>
+            </div>
+    <div id="backtotop" onclick="topFunction()">
+        <i class="lni lni-chevron-up"></i>
+    </div>
+    <script src="https://kit.fontawesome.com/d9b2aff8f0.js" crossorigin="anonymous"></script>
+    <script>
+        const d = new Date();
+        document.getElementById('nameandcopy').innerHTML = d.getFullYear();
+    </script>
+    <script src="js/script.js"></script>
+</body>
+</html>
