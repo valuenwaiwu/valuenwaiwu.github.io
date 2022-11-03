@@ -4,6 +4,10 @@
     font-family: 'Noto Sans Mono';
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .darkmode {
     filter: invert(100%) hue-rotate(180deg);
 }
