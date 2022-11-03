@@ -23,6 +23,10 @@ body {
     transition: ease-in-out 0.5s;
 }
 
+#mobilenav {
+    display: none;
+}
+
 a {
     text-decoration: none;
 }
@@ -522,7 +526,7 @@ nav li {
     }
     
     .body {
-        height: auto !important;
+        min-height: 60vh !important;
         padding: 10vh 0;
     }
 
