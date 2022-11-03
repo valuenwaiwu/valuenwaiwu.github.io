@@ -529,6 +529,11 @@ nav li {
         min-height: 60vh !important;
         padding: 10vh 0;
     }
+    
+    .position {
+        min-height: 70vh !important;
+        padding: 10vh 0;
+    }
 
     .text, #shiporder, #development {
         position: relative;
