@@ -577,6 +577,10 @@ nav li {
     marque {
         width: 100vw;
     }
+    
+    .workitem button {
+        display: none;
+    }
 
     #workitemcontainer {
         width: 85vw;
