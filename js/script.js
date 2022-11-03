@@ -9,6 +9,9 @@ function toggleMenu() {
 
 function darkMode() {
   document.documentElement.classList.toggle('darkmode');
+  document.querySelectorAll('.inverted').forEach((result) => {
+    result.classList.toggle('invert');
+  });
 }
 
 let mybutton = document.getElementById("backtotop");
