@@ -197,7 +197,6 @@ nav li {
     position: absolute;
     top: 25vh;
     right: 10vw;
-    filter: invert(100%) hue-rotate(180deg);
 }
 
 #development {
@@ -205,7 +204,6 @@ nav li {
     position: absolute;
     top: 25vh;
     right: 10vw;
-    filter: invert(1) hue-rotate(180deg);
 }
 
 .position {
@@ -300,7 +298,6 @@ nav li {
 
 .workitem img {
     width: 100%;
-    filter: invert(1) hue-rotate(180deg);
     z-index: 0;
 }
 
