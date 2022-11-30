@@ -583,7 +583,9 @@ nav li {
     }
 
     #workitemcontainer {
-        width: 85vw;
+        width: 88vw;
+        overflow-y: hidden;
+        scroll-snap-type: x mandatory;
     }
 
     #workitemcontainer img {
