@@ -585,6 +585,7 @@ nav li {
     #workitemcontainer {
         width: 88vw;
         overflow-y: hidden;
+        overflow-x: scroll;
         scroll-snap-type: x mandatory;
     }
 
