@@ -445,6 +445,10 @@ nav li {
         overflow-x: hidden;
         overflow-y: scroll;
     }
+    
+    a {
+        color: black;   
+    }
 
     nav {
         width: 92% !important;
